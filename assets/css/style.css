@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  block-size: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background: url("../img/bg.png") no-repeat center center/cover;
+  width: 100%;
+  height: 90vh;
+}
+
+button {
+  border: none;
+}
+
+.login_wrap {
+  margin: 0 auto;
+  width: 608px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 187px;
+}
+.login_logobox {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+.login_logo-text {
+  color: #474747;
+  font-size: 33px;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.login_form {
+  background-color: #FFF;
+  border-radius: 24px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.login_title {
+  color: #323233;
+  font-size: 25px;
+  font-weight: 700;
+}
+.login_texts {
+  display: flex;
+  margin-bottom: 15.5px;
+}
+.login_text {
+  color: #5A6175;
+  font-size: 15px;
+  font-weight: 400;
+}
+.login_link {
+  color: #FF6700;
+  font-size: 15px;
+  font-weight: 400px;
+  text-decoration: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+.login_input {
+  padding: 16px 22px;
+  color: #19191A;
+  border-color: #DAD7D5;
+  border-radius: 8px;
+  width: 90%;
+  margin-bottom: 24px;
+}
+.login_input::-moz-placeholder {
+  color: #19191A;
+}
+.login_input::placeholder {
+  color: #19191A;
+}
+.login_btn {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #0C6FF9;
+  border-radius: 24px;
+  width: 100%;
+  font-weight: 700;
+  margin: 23px 0 16px 0;
+}
+.login_icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.login_icon-box {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  padding: 8px 41.5px;
+  border-radius: 24px;
+}
+.login_with-sso {
+  margin: 23.5px 0 16px 0;
+  color: #323233;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #FCF8F6;
+  border-radius: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.-grey {
+  background-color: #5A6175;
+}
+
+.-green {
+  background-color: #2EBD59;
+}
+
+.-white {
+  background-color: #FAF6F4;
+}
